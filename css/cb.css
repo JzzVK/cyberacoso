@@ -209,7 +209,10 @@ body{
 	}
 }
 .h--body{
-	height: 300px;
+	position: relative;
+	left: 10%;
+	width: 80%;
+	height: 280px;
 	animation-name: example;
 	animation-duration: 4s;
 }
@@ -221,7 +224,7 @@ body{
 	position: relative;
 	left: 25%;
 	width: 50%;
-	height: 35%;
+	height: auto;
 }
 @media all and (max-width: 480px) and (min-width: 1px){
 	.h--img{
@@ -265,7 +268,7 @@ body{
 	font-family: 'Passion One', cursive;
 	font-weight: normal;
 	text-align: center;
-	padding: 10px
+	padding: 5px 10px 10px 10px;
 }
 
 /*pie*/
