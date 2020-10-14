@@ -1,0 +1,303 @@
+/*Constantes*/
+a:visited, a:link {
+	color:#39A67E;
+	text-decoration: none;
+}
+a:active {
+	color:#80FFD0;
+    text-decoration: none;
+}
+li{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;}
+
+body{
+	margin: 0px;
+	background-color: #D3FFFE;
+}
+
+/*Logo*/
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 140px;
+	background-color:#2E837A;
+
+}
+
+.logo{
+	position: absolute;
+	width: 40%;
+	display: inline-block;
+}
+
+.foto{
+	height: 140px;
+}
+
+/*.login{
+	display: inline-block;
+	position: absolute;
+	right: 0%;
+}
+.formtitulo{
+	width: 100px;
+	margin: 0px;
+	color:white;
+	font-family: 'Bebas Neue', cursive;
+	text-shadow: 2px 1px black;
+}
+.inputs{
+	background-color:#81DACB;
+	display: block;
+	margin: 5px;
+	border-radius: 5px;
+	border-right:solid 4px #052E23;
+	border-top: none;
+	border-left: none;
+	border-bottom: solid 4px #052E23;
+}
+.registro{
+	margin: 1px; 
+}
+/*Barra*/
+
+.barra{
+	width: 100%;
+	background-color: #81DACB;
+	margin: 0px;
+	height: 35px;
+	padding: 0px;
+}
+.barraicon{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.barraicon :hover{
+	color:#2E837A;
+	transform:translateY(5px);
+	border-bottom: solid 5px black;
+	transition:border(10s); 
+	transition:1s;
+
+}
+.barratext{
+	font-family: 'Bebas Neue', cursive;
+	color:rgba(365,365,365,0.4);
+	white-space: normal;
+	font-size: 27px;
+	background-color: #81DACB;
+	text-align: center;
+	width: 50%;
+	list-style: none;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+
+}
+.p{
+	height: 5000px;
+	width: 20px;}
+
+
+/*Cuerpo*/
+
+.q--background{
+	background:linear-gradient(90deg,#285E43 40%,#D3FFFE);
+	margin: 50px;
+	padding: 5px 0px;
+	animation-name: questions;
+	animation-duration: 3s;
+	}
+
+.q--background:hover{
+	transform: scale(1.03);
+	transition: .5s;
+	box-shadow:8px 8px 9px 3px rgba(0,0,0,0.77);
+}
+
+.q--background2{
+	background:linear-gradient(270deg,#285E43 40%,#D3FFFE);
+	margin: 50px;
+	position: relative;
+	padding: 5px 0px;
+	animation-name: questions;
+	animation-duration: 3s;
+	}
+
+.q--background2:hover{
+	transform: scale(1.03);
+	transition: .5s;
+	box-shadow:8px 8px 9px 3px rgba(0,0,0,0.77);
+}
+/*.q--contentl{
+	width:35%;
+	margin: 2px 10px;
+}
+
+.q--contentr{
+	width:35%;
+	position: absolute;
+	right: 0px;
+	margin: 2px 10px;
+}
+*/
+.q--tittler{
+	position: relative;
+	right: -70%;
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	color:white;
+	width: 100px;
+}
+.q--tittlel{
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	color:white;
+	margin: 2px 15px;
+}
+.q--headerr{
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	color:#CCFFE8;
+	text-align: right;
+	font-size: 45px;
+	margin:25px 10px;
+	text-shadow: 2px 2px 0 #0F4133, 2px -2px 0 #0F4133, -2px 2px 0 #0F4133, -2px -2px 0 #0F4133, 2px 0px 0 #0F4133, 0px 2px 0 #0F4133, -2px 0px 0 #0F4133, 0px -2px 0 #0F4133, 0px 0px 20px rgba(34,104,33,0);
+
+}
+
+.q--headerl{
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	color:#CCFFE8;
+	font-size: 45px;
+	margin:25px 10px;
+	text-shadow: 2px 2px 0 #0F4133, 2px -2px 0 #0F4133, -2px 2px 0 #0F4133, -2px -2px 0 #0F4133, 2px 0px 0 #0F4133, 0px 2px 0 #0F4133, -2px 0px 0 #0F4133, 0px -2px 0 #0F4133, 0px 0px 20px rgba(34,104,33,0);
+}
+
+.q--textl, ul{
+	font-family: 'PT Sans', bold, sans-serif;
+	font-weight: bold;
+	color:#A5FCE2;
+	width: 30%;
+	margin: 2px 10px;
+	font-size: 20px;
+}
+.q--textr{
+	position: relative;
+	right: -69%;
+	width: 30%;
+	text-align: right;
+	font-family: 'PT Sans', bold, sans-serif;
+	font-weight: bold;
+	color:#A5FCE2;
+	font-size: 20px;
+}
+@keyframes questions {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+@media all and (max-width: 480px) and (min-width: 1px){
+	.q--content{
+		width:95%;
+	}
+	.q--textl, .q--textr{
+		font-size: 45px;
+	}
+}
+.h--body{
+	height: 300px;
+	animation-name: example;
+	animation-duration: 4s;
+}
+@keyframes example {
+  from {opacity: 0%; transform:scale(1.2);}
+  to {opacity: 100%;transform: 1.0}
+}
+.h--img{
+	position: relative;
+	left: 25%;
+	width: 50%;
+	height: 35%;
+}
+@media all and (max-width: 480px) and (min-width: 1px){
+	.h--img{
+		width: 100%
+	}
+}
+.h--tittle{
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	font-size: 50px;
+	text-align:center;
+	color:#0E4335;
+	margin: -2px;
+}
+.h--txt{
+	position: relative;
+	left: 25%;
+	font-family: 'PT Sans', bold, sans-serif;
+	font-weight: bold;
+	width: 50%;
+	text-align: center;
+}
+.h--button{
+	background-color: #00B078;
+	display: inline-block;
+	height: 45px;
+	position: relative;
+	left:50%;
+	box-sizing: inherit;
+	margin-left: -5%;
+	margin-right: auto
+}
+.h--button:hover{
+	transform: scale(1.5);
+	transition: 1.8s;
+}
+.h--buttontxt{
+	font-size: 200%;
+	color:#D4FDE5;
+	margin: 0px;
+	font-family: 'Passion One', cursive;
+	font-weight: normal;
+	text-align: center;
+	padding: 10px
+}
+
+/*pie*/
+.foot--txt{
+	font-family: 'PT Sans', bold, sans-serif;
+	font-weight: bold;
+	margin: 7px;
+}
+.pie{
+
+	height: 120px;
+	background-color: #CCD8E2;	
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+}
+.pie2{
+	height: 120px;
+	background-color: #CCD8E2;	
+	position: relative;
+	bottom:0px;
+	width: 100%;
+}
+.img{
+
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 5px 50px;
+	border: 2px solid #474747;
+}
+.img:hover{
+	transform: rotate(360deg);
+	transition: .4s;
+}
